@@ -92,7 +92,7 @@ public class ClienteRepository {
 
 		Connection connection = ConnectionFactory.getConnection();
 
-		String sql = "select * from cliente where id=?";
+		String sql = "select * from cliente where idcliente=?";
 
 		PreparedStatement statement = connection.prepareStatement(sql);
 		statement.setInt(1, idCliente);

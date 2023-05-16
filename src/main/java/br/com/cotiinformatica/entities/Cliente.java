@@ -11,6 +11,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+
 public class Cliente {
 	// PADRÃO JAVABEANS USANDO O LOMBOK PARA DECLARA-LOS 
 	private Integer idCliente;
